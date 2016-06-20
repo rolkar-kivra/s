@@ -21,4 +21,4 @@ So, the pull, status and diff will operate on the current branch.
 
 Running this will clone a new repo
 
-* s/clone.sh <repo>
+* s/clone.sh REPO
