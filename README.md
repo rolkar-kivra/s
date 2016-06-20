@@ -14,11 +14,11 @@ in all the downloaded repos. The pull will only do --ff-only.
 NOTE - beware that the scripts will not do a "checkout master"
 So, the pull, status and diff will operate on the current branch.
 
-  s/fetch.sh
-  s/pull.sh
-  s/status.sh
-  s/diff.sh
+* s/fetch.sh
+* s/pull.sh
+* s/status.sh
+* s/diff.sh
 
 Running this will clone a new repo
 
-  s/clone.sh <repo>
+* s/clone.sh <repo>
