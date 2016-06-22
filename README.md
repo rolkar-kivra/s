@@ -22,3 +22,7 @@ So, the pull, status and diff will operate on the current branch.
 Running this will clone a new repo
 
 * s/clone.sh REPO
+
+Running this will run git grep in all repos
+
+* s/grep.sh GREP_ARGS
