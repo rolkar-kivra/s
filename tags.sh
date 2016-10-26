@@ -16,7 +16,7 @@ RED="$(tput setaf 9)"
 RESET="$(tput sgr0)"
 
 for repo in ${repos}; do
-    echo ${GRAY}${repo}${RESET}
+    echo ${BLUE}${repo}${RESET}
     cd ${repo}
     git tag
     cd ..
