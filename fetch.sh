@@ -9,6 +9,6 @@ RESET="$(tput sgr0)"
 for repo in ${repos}; do
     echo ${BLUE}${repo}${RESET}
     cd ${repo}
-    git fetch
+    git fetch $@
     cd ..
 done
