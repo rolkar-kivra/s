@@ -1,10 +1,6 @@
 #!/bin/sh
 
-gitfiles=`ls -d */.git`
-repos=`for x in ${gitfiles}; do dirname $x; done`
-
-BLUE="$(tput setaf 4)"
-RESET="$(tput sgr0)"
+. `dirname $0`/header
 
 for repo in ${repos}; do
     echo ${BLUE}${repo}${RESET}
