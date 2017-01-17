@@ -5,6 +5,6 @@
 for repo in ${repos}; do
     echo ${BLUE}${repo}${RESET}
     cd ${repo}
-    git grep $@
+    git grep --color $@
     cd ..
-done
+done | less -r
