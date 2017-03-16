@@ -12,3 +12,5 @@ LGRAY="$(tput setaf 7)"
 GRAY="$(tput setaf 8)"
 RED="$(tput setaf 9)"
 RESET="$(tput sgr0)"
+
+HEAD=${CYAN}
