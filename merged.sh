@@ -5,6 +5,6 @@
 for repo in ${repos}; do
     echo ${HEAD}${repo}${RESET}
     cd ${repo}
-    git branch --color -a --merged | grep -v master
+    git branch --color -a --merged master | grep -v master
     cd ..
 done
