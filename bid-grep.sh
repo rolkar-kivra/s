@@ -2,7 +2,7 @@
 
 . `dirname $0`/header
 
-repos="base_bidder bidpipe_fmt bulkbuilder differ effector eqw eqw_sqs inciter indexer picker piper"
+repos="base_bidder bidpipe_fmt bulkbuilder differ effector eqw eqw_sqs inciter modciter indexer picker piper chunker"
 
 for repo in ${repos}; do
     echo ${HEAD}${repo}${RESET}
