@@ -11,7 +11,7 @@ same folder as this (s) repo.
 Running one of these will recursively do a "git fetch" etc
 in all the downloaded repos. The pull will only do --ff-only.
 
-NOTE - beware that the scripts will not do a "checkout master"
+NOTE - beware that the scripts will not do a "checkout master/main"
 So, the pull, status and diff will operate on the current branch.
 
 * s/fetch.sh
